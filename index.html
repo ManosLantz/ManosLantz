@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Manos Lantzourakis</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="MSc Data Analysis & Machine-Statistical Learning. ML, causality, F1 analytics.">
+
+<style>
+body{
+  margin:0;
+  font-family:system-ui,Segoe UI,Roboto,Arial;
+  background:#0b0f17;
+  color:#e5e7eb;
+}
+a{color:#7dd3fc;text-decoration:none}
+a:hover{text-decoration:underline}
+
+.container{max-width:900px;margin:auto;padding:40px 20px}
+
+h1{font-size:48px;margin-bottom:5px}
+h2{margin-top:50px;border-bottom:1px solid #233044;padding-bottom:5px}
+.subtitle{color:#9ca3af;font-size:18px}
+
+.card{
+  background:#111827;
+  border:1px solid #233044;
+  border-radius:12px;
+  padding:20px;
+  margin-top:15px;
+}
+
+.tags span{
+  display:inline-block;
+  font-size:12px;
+  border:1px solid #233044;
+  padding:4px 8px;
+  border-radius:999px;
+  margin-right:6px;
+  margin-top:6px;
+  color:#9ca3af;
+}
+
+.project{margin-bottom:25px}
+
+footer{
+  text-align:center;
+  margin-top:80px;
+  color:#6b7280;
+  font-size:14px;
+}
+</style>
+</head>
+
+<body>
+<div class="container">
+
+<h1>Manos Lantzourakis</h1>
+<div class="subtitle">
+MSc Data Analysis & Machine-Statistical Learning • Electrical & Computer Engineer • Causality & ML
+</div>
+
+<p>
+I build machine-learning systems that survive messy, real-world data.
+My current obsession is Formula-1 lap-time prediction using strict cross-validation.
+</p>
+
+<h2>Projects</h2>
+
+<div class="card project">
+<h3>F1 Lap Time Forecasting</h3>
+<p>
+End-to-end ML pipeline using FastF1 data (2022–2025), feature engineering, XGBoost + Random Forest ensembles,
+and Leave-One-Race-Out cross-validation to prevent track leakage.
+</p>
+<div class="tags">
+<span>Python</span><span>XGBoost</span><span>Optuna</span><span>Causal ML</span>
+</div>
+</div>
+
+<div class="card project">
+<h3>Android Nutrition & Recipe App</h3>
+<p>
+Jetpack Compose app with DataStore preferences, recipe browsing, and macro-nutrient analysis.
+</p>
+<div class="tags">
+<span>Kotlin</span><span>Jetpack Compose</span><span>Mobile ML-ready</span>
+</div>
+</div>
+
+<h2>Research interests</h2>
+<div class="card">
+<ul>
+<li>Causal inference and causal discovery in high-dimensional data</li>
+<li>ML systems that generalize across domains</li>
+<li>Scientific Machine Learning and interpretable models</li>
+</ul>
+</div>
+
+<h2>Contact</h2>
+<div class="card">
+<p>Email: <b>lantzourakise@gmail.com</b></p>
+<p>
+<a href="https://github.com/ManosLantz">GitHub</a> · 
+<a href="#">LinkedIn</a> · 
+<a href="#">CV (PDF)</a>
+</p>
+</div>
+
+<footer>
+© <span id="y"></span> Manos Lantzourakis
+</footer>
+
+</div>
+<script>document.getElementById("y").textContent=new Date().getFullYear()</script>
+</body>
+</html>
